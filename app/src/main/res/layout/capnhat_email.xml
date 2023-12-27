@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imgbThoat8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/xoanen"
+            android:src="@drawable/exit3"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:contentDescription="NULL"
+            tools:ignore="TouchTargetSizeCheck"/>
+
+        <TextView
+            android:id="@+id/txvcapnhatemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cập nhật địa chỉ email"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="230dp"
+            android:textColor="@color/camdam"
+            android:textSize="30dp"
+            android:contentDescription="NULL"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="430dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Vui lòng cập nhật địa chỉ email để được hỗ trợ tốt nhất cho quyền lợi của bạn."
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/textcolor"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="430dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text= "Đồng thời bạn sẽ có thêm một phương thức đăng nhập mới."
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/textcolor"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/duongvien_goctron1"
+        android:hint="  Nhập địa chỉ email"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        tools:ignore="TouchTargetSizeCheck"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <EditText
+            android:layout_width="267dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/duongvien_goctron2"
+            android:hint="  Mã xác minh"
+            android:textColor="@color/textcolor"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            tools:ignore="TouchTargetSizeCheck"/>
+        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:text="Gửi mã xác minh"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:backgroundTint="@color/camnhat"
+            tools:ignore="OnClick" />
+            
+    </LinearLayout>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Lưu"
+        android:textStyle="normal"
+        android:textSize="25dp"
+        android:backgroundTint="@color/camnhat"/>
+
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hoso_hoctap.Nam_sinh">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/imgbThoat5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/xoanen"
+            android:contentDescription="NULL"
+            android:src="@drawable/exit2"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/txvtaohs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bé sinh năm bao nhiêu?"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/camdam"
+            android:textSize="30dp"
+            android:layout_marginLeft="200dp"
+            android:contentDescription="NULL"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txvnamsinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Chọn ngày sinh"
+        android:textSize="25dp"
+        android:textColor="@color/textcolor"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/bntnamsinh"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="JUN  10  2014"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="@color/textcolor"
+        style="?android:spinnerStyle"
+        android:onClick="bntnamsinh_click" />
+
+    <ImageButton
+        android:id="@+id/bnttieptuc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@color/xoanen"
+        android:src="@drawable/tiep_tuc"
+        android:contentDescription="NULL"
+        android:onClick="bnttieptuc2_click"/>
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/xoanen"
+            android:src="@drawable/exit2"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:contentDescription="NULL"
+            tools:ignore="TouchTargetSizeCheck"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Xác thực tài khoản"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="230dp"
+            android:textColor="@color/camdam"
+            android:textSize="30dp"
+            android:contentDescription="NULL"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Vui lòng nhập mật khẩu xác thực để bảo mật tài khoản"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/textcolor"/>
+
+    <EditText
+        android:layout_width="585dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/duongvien_goctron1"
+        android:layout_marginTop="30dp"
+        android:hint="  Xác nhận mật khẩu"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/textcolor"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="130dp"
+        android:backgroundTint="@color/white"
+        android:text="Quên mật khẩu?"
+        android:textColor="@color/camdam"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        tools:ignore="InvalidId" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/camnhat"
+        android:text="Xác nhận"
+        android:textSize="25dp"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>

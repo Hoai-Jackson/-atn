@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/trangxam">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imgbThoat4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/xoanen"
+            android:src="@drawable/exit2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:contentDescription="NULL"
+            tools:ignore="TouchTargetSizeCheck"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="5dp"
+            android:text="Ba mẹ đã có tài khoản chưa?"
+            android:textColor="@color/camdam"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:contentDescription="NULL"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/bntyes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/yes"
+            android:background="@color/xoanen"
+            android:contentDescription="NULL"
+            android:onClick="bntyes_click"/>
+
+        <ImageButton
+            android:id="@+id/bntno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/no"
+            android:background="@color/xoanen"
+            android:contentDescription="NULL"
+            android:onClick="bntno_click"/>
+    </LinearLayout>
+</LinearLayout>

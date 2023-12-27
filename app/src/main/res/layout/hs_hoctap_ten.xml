@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/trangxam"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/imgbThoat5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/xoanen"
+            android:src="@drawable/exit2"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:contentDescription="NULL"
+            tools:ignore="TouchTargetSizeCheck"/>
+
+        <TextView
+            android:id="@+id/txvtaohs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tạo hồ sơ học tập"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="250dp"
+            android:textColor="@color/camdam"
+            android:textSize="30dp"
+            android:contentDescription="NULL"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txvtenbe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Tên của bé là gì?"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/textcolor"/>
+
+    <EditText
+        android:id="@+id/edttenbe"
+        android:layout_width="500dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/duongvien_goctron"
+        android:hint="Điền tên của bé"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/textcolor"/>
+
+    <ImageButton
+        android:id="@+id/bnttieptuc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/tiep_tuc"
+        android:layout_marginTop="20dp"
+        android:background="@color/xoanen"
+        android:contentDescription="NULL"/>
+</LinearLayout>

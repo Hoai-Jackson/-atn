@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/trangxam"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/imgbThoat12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/xoanen"
+            android:src="@drawable/exit2"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:contentDescription="NULL"
+            tools:ignore="TouchTargetSizeCheck"/>
+
+        <TextView
+            android:id="@+id/txvtaohs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tạo hồ sơ học tập"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="230dp"
+            android:textColor="@color/camdam"
+            android:textSize="30dp"
+            android:contentDescription="NULL"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Bé bao nhiêu tuổi?"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/textcolor"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <ImageButton
+            android:id="@+id/bnttuoi6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/tuoi6"
+            android:background="@color/xoanen"
+            android:contentDescription="NULL"/>
+
+        <ImageButton
+            android:id="@+id/bnttuoi7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/tuoi7"
+            android:background="@color/xoanen"
+            android:contentDescription="NULL"/>
+
+        <ImageButton
+            android:id="@+id/bnttuoi8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/tuoi8"
+            android:background="@color/xoanen"
+            android:contentDescription="NULL"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/bnttuoi9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/tuoi9"
+            android:background="@color/xoanen"
+            android:contentDescription="NULL"/>
+
+        <ImageButton
+            android:id="@+id/bnttuoi10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/tuoi10"
+            android:background="@color/xoanen"
+            android:contentDescription="NULL"/>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/bnttieptuc3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/xoanen"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/tiep_tuc"
+        android:contentDescription="NULL" />
+
+</LinearLayout>

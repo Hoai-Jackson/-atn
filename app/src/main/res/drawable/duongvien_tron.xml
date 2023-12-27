@@ -1,0 +1,20 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+<!--    màu nền-->
+    <solid android:color="#FFFFFF"></solid>
+
+<!--tạo viền-->
+    <stroke
+        android:width="2dp"
+        android:color="#FB923C" ></stroke>
+
+<!--    kích thước-->
+    <size
+        android:width="80dp"
+        android:height="80dp"></size>
+
+<!--    bo viền-->
+    <corners android:radius="40dp"></corners>
+
+</shape>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/trangxam">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/xoanen"
+            android:src="@drawable/exit2"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:contentDescription="NULL"
+            tools:ignore="TouchTargetSizeCheck"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thiết lập mật khẩu"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="200dp"
+            android:textColor="@color/camdam"
+            android:textSize="30dp"
+            android:contentDescription="NULL"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Tài khoản của bạn có thể được dùng để đăng nhập trên tất cả các thiết bị"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/textcolor"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_width="458dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:background="@drawable/duongvien_goctron">
+
+        <EditText
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:hint="   Điền mật khẩu"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/textcolor"
+            tools:ignore="TouchTargetSizeCheck"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line4"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="458dp"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:background="@drawable/duongvien_goctron"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:hint="   Xác nhận mật khẩu"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/textcolor"
+            tools:ignore="TouchTargetSizeCheck"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line4"/>
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/xoanen"
+        android:src="@drawable/sign_in"
+        android:contentDescription="NULL"/>
+</LinearLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/imgbThoat7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/xoanen"
+            android:src="@drawable/exit3"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:contentDescription="NULL"
+            tools:ignore="TouchTargetSizeCheck"/>
+
+        <TextView
+            android:id="@+id/txvcapnhatsdt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cập nhật số điện thoại"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="230dp"
+            android:textColor="@color/camdam"
+            android:textSize="30dp"
+            android:contentDescription="NULL"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="430dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Vui lòng cập nhật địa chỉ email để được hỗ trợ tốt nhất cho quyền lợi của bạn."
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/textcolor"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="430dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Đồng thời bạn sẽ có thêm một phương thức đăng nhập mới."
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/textcolor"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/duongvien_goctron"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="VN"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/textcolor"
+            tools:ignore="TouchTargetSizeCheck"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/line4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="+84"
+            android:textColor="@color/textcolor"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginRight="20dp"
+            tools:ignore="TouchTargetSizeCheck"/>
+
+        <EditText
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Nhập số điện thoại của bạn..."
+            android:textStyle="bold"
+            android:textColor="@color/textcolor"
+            android:textSize="25dp"
+            android:background="@null"
+            tools:ignore="TouchTargetSizeCheck"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/camnhat"
+        android:text="Lưu"
+        android:textSize="25dp"
+        android:textColor="@color/white" />
+</LinearLayout>

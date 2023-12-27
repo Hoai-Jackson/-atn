@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/trangxam">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/imgbThoat1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/xoanen"
+            android:src="@drawable/exit2"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:contentDescription="NULL"
+            tools:ignore="TouchTargetSizeCheck"/>
+
+        <TextView
+            android:id="@+id/txvdangnhap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đăng nhập tài khoản"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="230dp"
+            android:textColor="@color/camdam"
+            android:textSize="30dp"
+            android:contentDescription="NULL"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="458dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:background="@drawable/duongvien_goctron"
+        android:hint="   Điền username/SĐT"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/textcolor"/>
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="458dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/duongvien_goctron"
+        android:hint="   Điền mật khẩu"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/textcolor"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/xoanen"
+        android:contentDescription="NULL"
+        android:src="@drawable/quenmatkhau"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@color/xoanen"
+        android:src="@drawable/sign_in3"
+        android:contentDescription="NULL"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/line"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/xoanen"
+            android:layout_marginRight="20dp"
+            android:contentDescription="NULL"
+            android:src="@drawable/google" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@color/xoanen"
+            android:contentDescription="NULL"
+            android:src="@drawable/facebook" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ba mẹ chưa có tài khoản?"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/camnhat" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="6dp"
+            android:background="@color/xoanen"
+            android:src="@drawable/dangkyngay"
+            tools:ignore="TouchTargetSizeCheck"
+            android:contentDescription="NULL"/>
+
+    </LinearLayout>
+</LinearLayout>

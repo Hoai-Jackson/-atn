@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="camdam">#F97316</color>
+    <color name="camnhat">#FB923C</color>
+    <color name="donhat">#FF7F69</color>
+    <color name="xanhduong">#698EE3</color>
+    <color name="xamnhat">#D9D9D9</color>
+    <color name="xamdam">#A3A3A3</color>
+    <color name="trangxam">#f4f4f5</color>
+    <color name="textcolor">#52525B</color>
+    <color name="xoanen">#00FFFFFF</color>
+</resources>
